@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VivoDrama</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <div class="title">
+          <h1>VivoDrama</h1>
+        </div>
+        <div class="nav-items">
+          <div class="items">
+            <a href="">Home</a>
+          </div>
+          <div class="items">
+            <a href="">Contato</a>
+          </div>
+          <div class="items">
+            <a href="">Sobre nós</a>
+          </div>
+        </div>
+      </nav>
+      <div class="title2">
+        <h2>
+          Compare aqui os valores de suas ligações de acordo com o plano
+        </h2>
+      </div>
+
+    </header>
+    <main>
+      <div class="card">
+        <div class="card-title">
+          <h3>Fale como o Ruan</h3>
+        </div>
+        <div class="card-content">
+          <label for="">DDD de origem:</label>
+          <select id='fala30dddOrigem'>
+            <option hidden>Selecione um DDD</option>
+            <option value="011">011</option>
+            <option value="016">016</option>
+            <option value="017">017</option>
+            <option value="018">018</option>
+          </select>
+          <label for="">DDD de destino:</label>
+          <select id='fala30dddDestino'>
+            <option hidden>Selecione um DDD</option>
+            <option value="011">011</option>
+            <option value="016">016</option>
+            <option value="017">017</option>
+            <option value="018">018</option>
+          </select>
+          <label>Quantos minutos?</label>
+          <input type="text" id='fala30minutos' placeholder="Digite os minutos">
+          <button type="button" onclick="fala30()">Calcular</button>
+          <label>Valor com plano:</label>
+          <label id='label1'></label>
+          <label>Valor sem plano:</label>
+          <label id='label2'></label>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">
+          <h3>Fale como o Sam </h3>
+        </div>
+        <div class="card-content">
+          <label for="">DDD de origem:</label>
+          <select id='fala60dddOrigem'>
+            <option hidden>Selecione um DDD</option>
+            <option value="011">011</option>
+            <option value="016">016</option>
+            <option value="017">017</option>
+            <option value="018">018</option>
+          </select>
+          <label for="">DDD de destino:</label>
+          <select id='fala60dddDestino'>
+            <option hidden>Selecione um DDD</option>
+            <option value="011">011</option>
+            <option value="016">016</option>
+            <option value="017">017</option>
+            <option value="018">018</option>
+          </select>
+          <label>Quantos minutos?</label>
+          <input type="text" id='fala60minutos' placeholder="Digite os minutos">
+          <button type="button" onclick="fala60()">Calcular</button>
+          <label>Valor com plano:</label>
+          <label id='label3'></label>
+          <label>Valor sem plano:</label>
+          <label id='label4'></label>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">
+          <h3>Fale como o Yuri, somente pra clientes vip</h3>
+        </div>
+        <div class="card-content">
+          <label for="">DDD de origem:</label>
+          <select id='fala120dddOrigem'>
+            <option hidden>Selecione um DDD</option>
+            <option value="011">011</option>
+            <option value="016">016</option>
+            <option value="017">017</option>
+            <option value="018">018</option>
+          </select>
+          <label for="">DDD de destino:</label>
+          <select id='fala120dddDestino'>
+            <option hidden>Selecione um DDD</option>
+            <option value="011">011</option>
+            <option value="016">016</option>
+            <option value="017">017</option>
+            <option value="018">018</option>
+          </select>
+          <label>Quantos minutos?</label>
+          <input type="text" id='fala120minutos' placeholder="Digite os minutos">
+          <button type="button" onclick="fala120()">Calcular</button>
+          <label>Valor com plano:</label>
+          <label id='label5'></label>
+          <label>Valor sem plano:</label>
+          <label id='label6'></label>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </div>
+  <script src="script.js">
+  </script>
+</body>
+
+</html>
